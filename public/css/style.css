@@ -1,0 +1,57 @@
+.filter-container {
+    margin: auto;
+}
+/* Style de titre */
+.filter-container h2 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #2196F3;
+    padding-bottom: .5rem;
+    border-left: 1rem solid #2196F3;
+    padding-left: .5rem;
+    color: #2196F3;
+    padding-top: 10px;
+}
+/* Form de filtrage (la partie grise sur la page où il y a le nom , type et caracteristique*/
+.filter-container form {
+    padding: 1rem;
+    background-color: #eee;
+    margin-bottom: 1rem;
+    box-shadow: 0 0.25rem 0.25rem #00000044;
+    box-sizing: border-box;
+}
+/* le contour des 3 boutons et leurs mesures  */
+.filter-container form input, .filter-container form select {
+    padding: 0.35rem; 
+    min-width: 10rem;
+}
+/* Design du bouton Recherche */
+.filter-container form button {
+    padding: 0.35rem;
+    min-width: 10rem;
+    color: white;
+    background-image: linear-gradient(45deg, #3f51b5, #2196F3);
+    border: 0;
+    border-radius: 0.2rem;
+    background-size: 200%;
+    background-position: left center;
+    transition: 1s;
+    cursor: pointer;
+}
+/* Design du bouton Recherche, button:hover : une fois le survol de la souris sur recherhe */
+.filter-container form button:hover { 
+    background-position: right center;
+}
+/* design de tableau de resultat  */
+.filter-container table {
+    border: 1px solid #ddd;
+}
+
+.filter-container table tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem .5rem;
+}
+
+.filter-container table tr th {
+    padding: .5rem;
+    background-color: #efefef;
+} 
