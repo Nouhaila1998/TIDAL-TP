@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-20 19:36:44
+/* Smarty version 3.1.33, created on 2019-09-21 21:33:13
   from 'C:\wamp64\www\TIDAL-TP\app\views\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d852a4c2f7c47_79225292',
+  'unifunc' => 'content_5d869719cb5e82_10342285',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d852a4c2f7c47_79225292 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d869719cb5e82_10342285 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 
